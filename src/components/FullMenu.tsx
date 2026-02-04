@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { FULL_MENU_DATA } from '../constants';
-import { FullMenuItem } from '../types';
+import { FULL_MENU_DATA } from '@/constants';
+import { FullMenuItem } from '@/types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { 

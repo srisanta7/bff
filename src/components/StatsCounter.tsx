@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import { STATS } from '../constants';
+import { STATS } from '@/constants';
 import { motion, useInView } from 'framer-motion';
 
 const CounterItem: React.FC<{ value: number; label: string; suffix: string }> = ({ value, label, suffix }) => {

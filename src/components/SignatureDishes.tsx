@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SIGNATURE_DISHES } from '../constants';
+import { SIGNATURE_DISHES } from '@/constants';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, ArrowUpRight } from 'lucide-react';
 

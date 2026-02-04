@@ -1,6 +1,6 @@
 import React from 'react';
 import { ChefHat, Leaf, Star, Heart } from 'lucide-react';
-import { USP_ITEMS } from '../constants';
+import { USP_ITEMS } from '@/constants';
 import { motion } from 'framer-motion';
 
 export const WhyChooseUs: React.FC = () => {

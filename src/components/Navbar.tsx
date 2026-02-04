@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { LOGO_URL, BRAND_SHORT } from '../constants';
+import { LOGO_URL, BRAND_SHORT } from '@/constants';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
 

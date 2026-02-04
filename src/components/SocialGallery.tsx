@@ -1,5 +1,5 @@
 import React from 'react';
-import { SOCIAL_IMAGES } from '../constants';
+import { SOCIAL_IMAGES } from '@/constants';
 import { Instagram } from 'lucide-react';
 
 export const SocialGallery: React.FC = () => {

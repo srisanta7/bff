@@ -1,5 +1,5 @@
 import React from 'react';
-import { MENU_HIGHLIGHTS } from '../constants';
+import { MENU_HIGHLIGHTS } from '@/constants';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 

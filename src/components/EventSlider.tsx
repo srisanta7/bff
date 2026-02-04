@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
-import { EVENTS } from '../constants';
+import { EVENTS } from '@/constants';
 
 export const EventSlider: React.FC = () => {
   const [current, setCurrent] = useState(0);

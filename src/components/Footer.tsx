@@ -1,5 +1,5 @@
 import React from 'react';
-import { LOGO_URL, BRAND_NAME } from '../constants';
+import { LOGO_URL, BRAND_NAME } from '@/constants';
 import { Facebook, Twitter, Instagram } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
