@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+
 import { SIGNATURE_DISHES } from '@/constants';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight, ArrowUpRight } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+
 
 export const SignatureDishes: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
